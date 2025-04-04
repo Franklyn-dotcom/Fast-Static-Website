@@ -1,0 +1,11 @@
+name: Fast-Static-Website
+description: Deploying a fast static website using pulumi and AWS
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python

@@ -1,0 +1,3 @@
+config:
+  Fast-Static-Website:path: ./www
+  aws:region: eu-north-1
