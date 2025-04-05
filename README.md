@@ -1,5 +1,5 @@
 # Fast Static Website Deployment Using Pulumi And AWS
-This project demonstrates how to deploy a static website using Pulumi and AWS services. It showcases the use of Infrasture as Code (IaC) to automate the provisioning of cloud resources and hosting a globally distributed static website.
+This project shows how to deploy a static website using Pulumi and AWS services. It uses Infrasture as Code (IaC) to automate the provisioning of cloud resources and hosting a globally distributed static website.
 
 ## Features
 - Automates cloud resources using Pulumi.
@@ -119,7 +119,7 @@ You should see the following output:
 ![success-8](/Images/step-19-page.png)
 
 ### 9. Accessing the website:
-CloudFront URL: [https://dxxqzfayx1t0f.cloudfront.net]("https://dxxqzfayx1t0f.cloudfront.net")
+CloudFront URL: [CDN URL]("https://dxxqzfayx1t0f.cloudfront.net")
 
 ## Resources:
 - [Pulumi AWS Documentation](https://www.pulumi.com/docs/iac/get-started/aws/)
