@@ -119,7 +119,7 @@ You should see the following output:
 ![success-8](/Images/step-19-page.png)
 
 ### 9. Accessing the website:
-CloudFront URL: [CDN URL]("https://dxxqzfayx1t0f.cloudfront.net")
+- CloudFront URL: [CDN-URL](https://dxxqzfayx1t0f.cloudfront.net)
 
 ## Resources:
 - [Pulumi AWS Documentation](https://www.pulumi.com/docs/iac/get-started/aws/)
