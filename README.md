@@ -1,8 +1,8 @@
 # Fast Static Website Deployment Using Pulumi And AWS
-This project shows how to deploy a static website using Pulumi and AWS services. It uses Infrasture as Code (IaC) to automate the provisioning of cloud resources and hosting a globally distributed static website.
+This project shows how to deploy a static website using Pulumi and AWS services. It uses Pulumi's AWS SDK with Python to automate the provisioning of AWS cloud resources and hosting a globally distributed static website.
 
 ## Features
-- Automates cloud resources using Pulumi.
+- Automates AWS cloud resources using Pulumi's AWS SDK with Python.
 - Creates an S3 bucket for static website hosting and syncs the local `www` folder (containing `index.html` and `error.html`) to the bucket.
 - Configures the S3 bucket for static website hosting with support for an index document (`index.html`) and an error document (`error.html`).
 - Creates an AWS Cloudfront to serve as a Content Delivery Network(CDN) for global distribution, caching, and HTTPS support.
@@ -10,16 +10,17 @@ This project shows how to deploy a static website using Pulumi and AWS services.
 ## Prerequisites
 Before you begin, ensure you have:
 - AWS Account
-- AWS CLI installed and configured with your credentials.
 - IAM User Account for access keys and secret keys
 - Pulumi Account and Pulumi CLI installed
 - Python3.6 or higher
 - Basic understanding of python
 
 ## How To Run The Project
-### 1. Clone the repository:
+### 1. Clone the repository and navigate to the project directory:
 ```bash
 git clone https://github.com/Franklyn-dotcom/Fast-Static-Website.git
+
+cd Fast-Static-Website
 ``` 
 
 ### 2. Configure AWS Credential in the CLI:
@@ -108,18 +109,24 @@ pulumi up
 ```
 ![pulumi-up](/Images/step-12.png)
 
-You should see the following output:
+After running the script, you should see the following output:
 ![success-1](/Images/step-16.png)
 ![success-2](/Images/step-18-success.png)
+
+**AWS S3 And CloudFront Output**
 ![success-3](/Images/step-20.png)
 ![success-4](/Images/step-20.1.png)
 ![success-5](/Images/step-20.2.png)
 ![success-6](/Images/step-20.3.png)
 ![success-7](/Images/step-20.4.png)
+
+**Website Preview**
 ![success-8](/Images/step-19-page.png)
 
 ### 9. Accessing the website:
-- CloudFront URL: [CDN-URL](https://dxxqzfayx1t0f.cloudfront.net)
+- After the deployment process is complete, Pulumi will output the CloudFront URL in the terminal. 
+- You can access the website using the CloudFront URL in the brower
+- Check out my deployed version using this URL: [https://dxxqzfayx1t0f.cloudfront.net]()
 
 ## Resources:
 - [Pulumi AWS Documentation](https://www.pulumi.com/docs/iac/get-started/aws/)
