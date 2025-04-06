@@ -110,10 +110,12 @@ pulumi up
 ![pulumi-up](/Images/step-12.png)
 
 After running the script, you should see the following output:
+
 ![success-1](/Images/step-16.png)
 ![success-2](/Images/step-18-success.png)
 
 **AWS S3 And CloudFront Output**
+
 ![success-3](/Images/step-20.png)
 ![success-4](/Images/step-20.1.png)
 ![success-5](/Images/step-20.2.png)
@@ -121,6 +123,7 @@ After running the script, you should see the following output:
 ![success-7](/Images/step-20.4.png)
 
 **Website Preview**
+
 ![success-8](/Images/step-19-page.png)
 
 ### 9. Accessing the website:
