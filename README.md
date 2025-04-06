@@ -126,7 +126,7 @@ After running the script, you should see the following output:
 ### 9. Accessing the website:
 - After the deployment process is complete, Pulumi will output the CloudFront URL in the terminal. 
 - You can access the website using the CloudFront URL in the brower
-- Check out my deployed version using this URL: [https://dxxqzfayx1t0f.cloudfront.net]()
+- Check out my deployed version using this URL: [https://dxxqzfayx1t0f.cloudfront.net](https://dxxqzfayx1t0f.cloudfront.net)
 
 ## Resources:
 - [Pulumi AWS Documentation](https://www.pulumi.com/docs/iac/get-started/aws/)
